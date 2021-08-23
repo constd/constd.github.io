@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkconstd_github_io=self.webpackChunkconstd_github_io||[]).push([[678],{704:function(t,e,n){n.r(e),n.d(e,{default:function(){return o}});var u=n(294);function o(){return u.createElement("h1",null,"Hello Automated World!")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-432c849ff57967cdfb3e.js.map
