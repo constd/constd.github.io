@@ -1,2 +1,2 @@
 # constd.github.io
-Personal Website based on Gatsby
+Personal Website based on Next.js

@@ -1,34 +1,13 @@
 {
-  "name": "constd.github.io",
-  "version": "1.0.0",
-  "description": "Personal Website based on Gatsby",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/constd/constd.github.io.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/constd/constd.github.io/issues"
-  },
-  "homepage": "https://github.com/constd/constd.github.io#readme",
   "dependencies": {
-    "gatsby": "^3.12.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
